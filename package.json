@@ -4,8 +4,8 @@
    "type": "module",
   "main": "Index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
     "protect": "npx javascript-obfuscator src --output dist"
   },
   "keywords": [],
